@@ -1,0 +1,64 @@
+﻿body {
+    margin:0px;
+    
+}
+
+
+#index_main_div{
+
+    background:black;
+    color:white;
+    height:90px;
+    padding-top:1em;
+    position:fixed;
+    min-width:100%;
+    z-index:1;
+
+}
+
+.index_table_td{
+    text-align:center;
+    width:9%;
+    border-bottom:2px solid #e05e1c;
+    padding-bottom:0.5em;
+}
+
+.index_linkbtn{
+    font-family:Calibri;
+    text-decoration:none;
+    color:black;
+    font-size:16px;
+}
+
+
+.index_header_linkbtn{
+    font-family:Calibri;
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    color:white;
+}
+.index_header_linkbtn:hover{
+
+    color:#ff6a00;
+}
+
+.index_linkbtn:hover{
+
+    color:#ff6a00;
+}
+
+#index_footer{
+
+    background:black;
+    color:white;
+    font-family:Calibri;
+    height:35px;
+    padding-top:0.5em;
+}
+
+.index_table_footer_td{
+
+    width:5%;
+    text-align:left;
+}

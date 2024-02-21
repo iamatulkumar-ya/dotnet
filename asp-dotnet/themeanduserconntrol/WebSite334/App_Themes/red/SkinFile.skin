@@ -1,0 +1,5 @@
+﻿<asp:Calendar  runat="server" BackColor="#FF3300" BorderColor="#000099" BorderStyle="Groove" BorderWidth="6px" Font-Bold="True" Font-Italic="True" Font-Names="Georgia" ForeColor="White"></asp:Calendar>
+        <asp:GridView  runat="server" BackColor="#FF3300" BorderColor="#000099" BorderStyle="Groove" BorderWidth="6px" Font-Bold="True" Font-Italic="True" Font-Names="Georgia" ForeColor="White">
+        </asp:GridView>
+        <asp:Button  runat="server" BackColor="#FF3300" BorderColor="#000099" BorderStyle="Groove" BorderWidth="6px" Font-Bold="True" Font-Italic="True" Font-Names="Georgia" ForeColor="White"  />
+        <asp:Label  runat="server" BackColor="#FF3300" BorderColor="#000099" BorderStyle="Groove" BorderWidth="6px" Font-Bold="True" Font-Italic="True" Font-Names="Georgia" ForeColor="White" ></asp:Label>

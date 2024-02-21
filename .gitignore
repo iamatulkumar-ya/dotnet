@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+ 
+*.dll
+
+*.map.js
+*/node_modules
+*/bin/*
+*/obj/*
+*/Debug/*
+*/Release/*
+.vs/*
+
+ 
+**.dll
+
+**.map.js
+**/node_modules
+**/bin/*
+**/obj/*
+**/Debug/*
+**/Release/*
+**/.vs/*
+
+**/bin/*

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="E-mail.exe" version="1.0.0.0" publicKeyToken="8b026b19fa4b94ec" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="E-mail" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="E-mail.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="E-mail.exe" size="11776">
+      <assemblyIdentity name="E-mail" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JmFcxD1R4UIDe6N0X23ilQEGJJYflcgbKtZZU2xfXzA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="E-mail.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=asus\admin" issuerKeyHash="319cadb00bbc5c0f0cf48c3040d2b4e4aefe9be8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fjv8S8IKA92FpU0dlnku317cRF16u4AlnSHijc0YsGc=</DigestValue></Reference></SignedInfo><SignatureValue>XctP2i1yj9/kzbxQeOMqYc/KcZaPm2Nx18+pcb2KjjOEvp7vHQuEFi2eJSj4L9MVzbI4B2VUHTfT+N6pIqkTa6QBUQWvOImk+SKmA01LHmicZPPWtJ4UnmUz/fFY1b98E3NH6W1oOSul5oPvnt+044Lkvwx88wJsB+lVbjP41v4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ha2OqpT9Jnr4cdRDJrS2jsmxsEsFtUWn64ATKLqKnYm7rRMn92cVKNsXHwIDDCc3QW1rY99MHKGSJM2dFzEmUe+QEzcRxzFZaCuIi+wI0+uWB1zRAkXPikUX7sHkPgKo8z66jpjQA5PHZQCCaG1yQw6iO3//wSCFMR7Utdp0arU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="67b018cd8de2219d2580bb7a5d44dc5edf2e79961d4da585dd030ac24bfc3b7e" Description="" Url=""><as:assemblyIdentity name="E-mail.exe" version="1.0.0.0" publicKeyToken="8b026b19fa4b94ec" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=asus\admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2cYmIJ1fG2V04V77J9GjX0MxXK1n/PUlFK43qcaDIt4=</DigestValue></Reference></SignedInfo><SignatureValue>WzXs35hFMuBapyLUnAcHf/42Ej/I+IKUsEh981pwKQI43QIgjNKX9nNmITz1WCW9o2jsoLcTihFS1QpsYq983VoTe6eGcxS9jOTenDKYlteCgmPNJmkAY9XWlIFAVv6VsOp9S5DmoiECKJ11zszDMnuv91w4IG2CN2Eir2E/8kw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ha2OqpT9Jnr4cdRDJrS2jsmxsEsFtUWn64ATKLqKnYm7rRMn92cVKNsXHwIDDCc3QW1rY99MHKGSJM2dFzEmUe+QEzcRxzFZaCuIi+wI0+uWB1zRAkXPikUX7sHkPgKo8z66jpjQA5PHZQCCaG1yQw6iO3//wSCFMR7Utdp0arU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQHcJVtVLHdYJMGIknysG8pzANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAYQBzAHUAcwBcAGEAZABtAGkAbjAeFw0xNTEwMTAxNjE5NTFaFw0xNjEwMDkyMjE5NTFaMB8xHTAbBgNVBAMeFABhAHMAdQBzAFwAYQBkAG0AaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFrY6qlP0mevhx1EMmtLaOybGwSwW1RafrgBMouoqdibutEyf3ZxUo2xcfAgMMJzdBbWtj30wcoZIkzZ0XMSZR75ATNxHHMVloK4iL7AjT65YHXNECRc+KRRfuweQ+AqjzPrqOmNADk8dlAIJobXJDDqI7f//BIIUxHtS12nRqtQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGzJWibfmGu+JqaY1hjm3+2uNeQIcfnAAT6tUB0q6AJPctyBeEyP7BG+1ToEdAOEy49gkieBmRPkb5POoRjD2Wl6Uyzp9ZL9a47j/95y7jhxNscOf0JPBxjt/6FJ3iaF+Y6Bqx3Z7zwBA3UgJyaBTfGqhjAbwWZcEI2rfBl/hjL8</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

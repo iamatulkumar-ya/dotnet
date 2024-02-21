@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{43944B1B-214C-4FF5-90A7-ADC45304E28F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleApplicationClassDiagram</RootNamespace>
+    <AssemblyName>ConsoleApplicationClassDiagram</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Business Access Layer_1\BALadminwork.cs" />
+    <Compile Include="App_Code\Business Access Layer_1\BALbuyers.cs" />
+    <Compile Include="App_Code\Business Access Layer_1\BALcollectors.cs" />
+    <Compile Include="App_Code\Business Access Layer_1\BALngo.cs" />
+    <Compile Include="App_Code\Business Access Layer_1\BALuserhome.cs" />
+    <Compile Include="App_Code\Business Access Layer_1\BALuserlogin.cs" />
+    <Compile Include="App_Code\Business Access Layer_1\BALuserregistration.cs" />
+    <Compile Include="App_Code\Business Entity Layer_2 - Property layer\BELadminwork.cs" />
+    <Compile Include="App_Code\Business Entity Layer_2 - Property layer\BELbuyers.cs" />
+    <Compile Include="App_Code\Business Entity Layer_2 - Property layer\BELcollectors.cs" />
+    <Compile Include="App_Code\Business Entity Layer_2 - Property layer\BELngo.cs" />
+    <Compile Include="App_Code\Business Entity Layer_2 - Property layer\BELuserhome.cs" />
+    <Compile Include="App_Code\Business Entity Layer_2 - Property layer\BELuserlogin.cs" />
+    <Compile Include="App_Code\Business Entity Layer_2 - Property layer\BELuserregistration.cs" />
+    <Compile Include="App_Code\Data Access Layer_3\DALadminwork.cs" />
+    <Compile Include="App_Code\Data Access Layer_3\DALbuyers.cs" />
+    <Compile Include="App_Code\Data Access Layer_3\DALcollectors.cs" />
+    <Compile Include="App_Code\Data Access Layer_3\DALngo.cs" />
+    <Compile Include="App_Code\Data Access Layer_3\DALuserhome.cs" />
+    <Compile Include="App_Code\Data Access Layer_3\DALuserlogin.cs" />
+    <Compile Include="App_Code\Data Access Layer_3\DALuserregistration.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="SequenceDiagram1.sequencediagram" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SequenceDiagram1.sequencediagram.layout">
+      <DependentUpon>SequenceDiagram1.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

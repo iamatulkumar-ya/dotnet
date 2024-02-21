@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<MyDocument>
+  <ContactInfo>
+    <name>pandey</name>
+    <location>lko</location>
+    <email>rajpalsingh158@gmail.com</email>
+    <phone>9795393084</phone>
+  </ContactInfo>
+  <ContactInfo>
+    <name>nitin</name>
+    <location>roorkee</location>
+    <email>nitin@gmail.com</email>
+    <phone>9795393084</phone>
+  </ContactInfo>
+  <ContactInfo>
+    <name>kk</name>
+    <location>kanpur</location>
+    <email>nitin@gmail.com</email>
+    <phone>9795393084</phone>
+  </ContactInfo>
+</MyDocument>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<mydata>
+  <!--root item-->
+  <Employeedetails>
+    <empname>atul yadav</empname>
+    <empimage>
+    </empimage>
+    <empgender>Male</empgender>
+    <empdob>20-june-1995</empdob>
+    <empemail>atulyadav5566@gmail.com</empemail>
+    <empaddress>545 Ka/D-166 New Para Colony, Rajajipuram</empaddress>
+    <empcontactnumber>9026111881</empcontactnumber>
+    <empstate>uttar pradesh</empstate>
+    <empcity>lucknow</empcity>
+    <emppincode>226017</emppincode>
+    <empid>atul123123</empid>
+    <emppassword>atul123123</emppassword>
+    <empkey>123123</empkey>
+    <empdesignation>admin</empdesignation>
+    <empjoining>23-august-2015</empjoining>
+  </Employeedetails>
+  <Employeedetails>
+    <empname>boby</empname>
+    <empimage>~/images/Employee_images/2013-03-19 17.3.jpg</empimage>
+    <empgender>Male</empgender>
+    <empdob>20-06-1995</empdob>
+    <empemail>a@s.com</empemail>
+    <empaddress>afsfsffs</empaddress>
+    <empcontactnumber>9026111881</empcontactnumber>
+    <empstate>up</empstate>
+    <empcity>lko</empcity>
+    <emppincode>226017</emppincode>
+    <empid>bobby123123</empid>
+    <emppassword>bobby123123</emppassword>
+    <empkey>123123</empkey>
+    <empdesignation>admin</empdesignation>
+    <empjoining>aaj hi</empjoining>
+  </Employeedetails>
+</mydata>

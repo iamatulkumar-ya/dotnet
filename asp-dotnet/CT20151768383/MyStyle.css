@@ -1,0 +1,114 @@
+﻿.main_div{
+
+    font-family:'Bradley Hand ITC';
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+  
+
+}
+
+.main_div2{
+
+    font-family:Calibri;
+    font-size:25px;
+      font-weight:100;
+    text-align:center;
+
+}
+
+.login_td{
+
+    /*background-color:#067cca;*/
+       background-color:black;
+    font-family:Calibri;
+    font-size:x-large;
+    color:white;
+    text-align:center;
+        height:40px;
+}
+
+.td1{
+     font-family:Calibri;
+     font-weight:bold;
+     font-size:large;
+     text-align:left;
+
+}
+
+.td2{
+     font-family:Calibri;
+     font-weight:bold;
+     width:300px;
+     height:30px;
+     text-align:left;
+
+}
+
+.loginbtn_td{
+
+    /*background-color:#067cca;*/
+    background-color:black;
+    font-family:Calibri;
+    font-size:x-large;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    height:40px;
+    padding-left:8em;
+    padding-right:8em;
+    padding-top:.3em;
+    padding-bottom:.3em;
+}
+
+.loginbtn_td:hover{
+
+    background-color:white;
+    /*color:#067cca;*/
+
+       color:black;
+}
+
+.error_msg{
+
+    font-family:Calibri;
+    font-size:medium;
+    color:red;
+}
+.image{
+     Width:250px; 
+         height:200px;
+         border:8px double;
+        
+       
+}
+
+.linkbtn_td{
+
+    /*background-color:#067cca;*/
+    font-family:Calibri;
+    font-size:x-large;
+    color:black;
+    text-decoration:none;
+    height:40px;
+
+}
+
+.linkbtn_td:hover{
+    color:#0ad1e5;
+    
+    border-bottom:2px solid black;
+
+}
+
+.lable_txt{
+    font-family:Calibri;
+    font-size:large;
+    font-weight:700;
+}
+
+.txt_box{
+    width:300px;
+    height:30px;
+    border:2px solid #0ad1e5;
+}
