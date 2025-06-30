@@ -1,0 +1,21 @@
+﻿<asp:Button  SkinID="q"
+ runat="server" BackColor="#FF9900" 
+BorderColor="#000099" BorderStyle="Outset" BorderWidth="5px" 
+Font-Bold="True" Font-Italic="True" Font-Names="Georgia" 
+Font-Size="Larger" ForeColor="#000099" 
+
+  />
+
+<asp:Button  SkinID="p"
+ runat="server" BackColor="#993399" BorderColor="Yellow"
+ BorderStyle="Outset" BorderWidth="7px" 
+Font-Bold="True" Font-Italic="True" Font-Names="Arial" 
+ForeColor="White"
+ />
+
+<asp:Label  runat="server"
+ BackColor="#996633" BorderColor="Yellow" BorderStyle="Dashed" BorderWidth="5px" Font-Bold="True" Font-Italic="True" ForeColor="#66FF33" 
+></asp:Label>
+
+<asp:TextBox  runat="server" BackColor="#000099" BorderColor="Yellow" BorderStyle="Ridge" BorderWidth="5px" Font-Bold="True" 
+Font-Italic="True" ForeColor="White"></asp:TextBox>

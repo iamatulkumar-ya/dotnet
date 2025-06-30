@@ -1,0 +1,43 @@
+﻿@using Microsoft.AspNetCore.Html
+@model IndexViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+ 
+
+<div >
+
+@{
+    HtmlString msg = new HtmlString(@Model.ActionResponse);
+    <p id="messageBox"> @msg </p>
+}
+ 
+
+<form asp-controller="Home" asp-action="Index" method="post">
+     
+    <div class="mb-3 row">
+        <label for="TicketNumber" class="col-sm-2 col-form-label">Ticket Number:</label>
+        <div class="col-sm-6">
+            <input  class="form-control" id="TicketNumber" asp-for="TicketNumber">
+        </div>
+    </div>
+    using System.Web;
+
+    <div class="mb-3 row">
+        <label for="OldEmail" class="col-sm-2 col-form-label">Old Email:</label>
+        <div class="col-sm-6">
+            <input  class="form-control" id="OldEmail" asp-for="OldEmail">
+        </div>
+    </div>
+
+    <div class="mb-3 row">
+        <label for="NewEmail" class="col-sm-2 col-form-label">New Email:</label>
+        <div class="col-sm-6">
+            <input  class="form-control" id="NewEmail" asp-for="NewEmail">
+        </div>
+    </div>
+
+
+    <button class="btn btn-primary" type="submit">Validate</button>
+</form>
+</div>

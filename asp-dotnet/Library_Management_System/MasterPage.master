@@ -1,0 +1,177 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+          </asp:ContentPlaceHolder>
+
+            <style type="text/css">
+                .lab2{
+            font-family:Calibri; font-weight:bold; font-size:x-large;
+        }
+                .linkb{
+            text-decoration:none; font-family:Calibri; font-size:large; font-style:italic; color:red;
+        }
+                .lab3n{
+            font-family:'Comic Sans MS'; font-weight:bold; font-size:large; color:#e99b0e;
+        }
+                 .labh{
+            font-family:'Comic Sans MS'; font-weight:bold; font-size:large; color:white;
+        }
+        .a {
+             width: 75%;
+            background-image: url('images/lms32.jpg');
+            
+        }
+
+        .b{
+            background-image: url('images/bg.jpg');
+            width:100%;
+             height:6%; 
+        }
+
+        .lbt{
+
+            text-decoration:none;         
+            lighting-color:aqua;
+            font-family:Calibri;
+            font-size:x-large;
+            
+            color:white;
+            
+        }
+        .lbta{
+
+            text-decoration:none;         
+            lighting-color:aqua;
+            font-family:'Comic Sans MS';
+            font-size:large;
+            
+            color:white;
+            
+        }
+        .lbta:hover{
+            
+         font-weight:bold;
+             color:#f6a90a;
+        }
+      
+         .lab{
+            font-family:'Comic Sans MS'; font-weight:bold; font-size:xx-large; color:white;
+        }
+
+      
+    </style>
+  
+</head>
+     
+<body background='images/bg.jpg'>
+    <form id="form1" runat="server">
+    <div>
+        <table class="b">
+<tr>
+
+    <td>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+            <div style="float:right;">
+                
+             <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal">
+            <Items>
+                <asp:MenuItem Text="Signin" ToolTip="For Registered User" Value="Signin" NavigateUrl="~/usersignin.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Signup" ToolTip="For New User" Value="Signup" NavigateUrl="~/userregistration.aspx"></asp:MenuItem>
+            </Items>
+              <StaticHoverStyle Font-Bold="True" ForeColor="Blue" />
+            <StaticMenuItemStyle Font-Names="Calibri" Font-Size="X-Large" ForeColor="White" HorizontalPadding="10px" />
+            
+        </asp:Menu>
+               
+         
+        </div>
+        </asp:ContentPlaceHolder>
+        
+      
+       
+        <asp:LinkButton ID="myhome" runat="server" CssClass="lbta" PostBackUrl="~/myhome.aspx" ValidationGroup="home" Visible="False">Admin Home</asp:LinkButton>
+&nbsp;<asp:LinkButton ID="myhome2" runat="server" CssClass="lbta" PostBackUrl="~/myhome.aspx" ValidationGroup="home" Visible="False">Staff Home</asp:LinkButton>
+        
+      
+       
+    </td>
+</tr>
+</table>
+
+<div align="center">
+<table class="a">
+<tr>
+<td align="center"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+   <%-- <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">--%>
+        <div style="width:760px;" >
+         <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" StaticSubMenuIndent="16px">
+        <DynamicMenuItemStyle BackColor="#FF9900" ForeColor="White" />
+        <Items>
+            <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/Homepage.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="SEARCH A BOOK" Value="SEARCH A BOOK" NavigateUrl="~/Searchabook.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/Contactus.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="DEDICATION" Value="DEDICATION" NavigateUrl="~/Dedication.aspx"></asp:MenuItem>
+        </Items>
+        <StaticHoverStyle Font-Bold="True" />
+        <StaticMenuItemStyle Font-Names="Calibri" Font-Size="Large" ForeColor="Black" HorizontalPadding="30px" />
+    </asp:Menu>
+    </div>
+    <%--</asp:ContentPlaceHolder>--%>
+
+    <br /><br />
+
+</td>
+</tr>
+</table>
+
+<hr width=80%>
+
+
+<table width="100%">
+<tr>
+<td width="19%" style="position:static;vertical-align:top;">
+   
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               <div style="border:solid;float:left;">
+                   content placeholder 1
+              </div>
+                  </asp:ContentPlaceHolder>
+   
+</td>
+<td width="60%" style="position:static;vertical-align:top;">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+     <div style="border:solid">
+         <asp:Image ID="Image1" runat="server" ImageUrl="~/images/library111.jpg" width="100%" Height="300px"/>
+    </div>
+        </asp:ContentPlaceHolder>
+    
+
+</td>
+
+<td width="19%" style="position:static;vertical-align:top;"> <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+    <div style="width:auto;border:solid">
+        content placeholder3
+    </div>
+    </asp:ContentPlaceHolder>
+</td>
+</tr>
+</table>
+
+
+
+
+<table width=100%>
+<tr bgcolor=black><td align=center><font face=pristina size=4 color=white>  © 2015 Divine Book Store</font></td></tr>
+</table>
+</div>
+
+    </div>
+    </form>
+</body>
+</html>

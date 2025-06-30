@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+
+        <style type="text/css">
+
+            .txtbox {
+                border: 2px Solid #FF9900;
+                font-family: Calibri;
+                Font-Size: Large;
+                Width: 180px;
+                color:black;
+            }
+            .lb{
+                   font-weight:500; font-family:'Comic Sans MS'; font-size:X-Large; color:white; font-style:italic;
+              }
+            .text{
+                 font-family:'Comic Sans MS'; font-size:35px; text-shadow:5px 2px 2px #0094ff;
+            }
+            div#maindiv{
+                background-color:coral; box-shadow:15px 10px 6px #ff0000;
+            }
+            .menu{
+                font-family:Comic Sans MS; Color:White;
+            }
+         
+    
+     
+        </style>
+    
+</head>
+<body><br />
+    <form id="form1" runat="server">
+    <div>
+    <div>
+       
+        <center><asp:Label ID="Label1" CssClass="text" runat="server" Text="Online Submission Of Application Form"></asp:Label></center>
+    </div><br /><br />
+
+        <center><div id="maindiv" style="width:60%; height:auto; ">
+ 
+            <br />
+       <table>
+           <tr>
+               <td align="center">
+                   <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" >
+                <Items>
+                    <asp:MenuItem Text="HOME" Value="HOME"></asp:MenuItem>
+                    <asp:MenuItem Text="NEW REGISTRATION" Value="NEW REGISTRATION"></asp:MenuItem>
+                    <asp:MenuItem Text="SIGNIN" Value="SIGNIN"></asp:MenuItem>
+                    <asp:MenuItem Text="CONTACT US" Value="CONTACT US"></asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#9999FF" Font-Bold="True" ForeColor="Black" />
+                <StaticMenuItemStyle  HorizontalPadding="25px" CssClass="menu" />
+            </asp:Menu>
+               </td>
+           </tr>
+       </table>  <br />
+            <hr width="90%" color="white" />
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <div style="width:100%; height:auto;">
+                
+
+              
+            </div>
+          </asp:ContentPlaceHolder>
+        </div></center>
+    </div>
+    </form>
+</body>
+</html>
